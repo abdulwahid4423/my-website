@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="logo navbar-brand me-auto" href="index.html"><img src="./imge/logo.png" height="48px" alt=""></a>
+    
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class=" navbar nav-item">
+                  <a class="nav-link mx-lg-2 "  href="index.html">Home</a>
+                </li>
+                <li class=" navbar nav-item">
+                  <a class="nav-link mx-lg-2" href="aboul.html">About</a>
+                </li>
+                <li class=" navbar nav-item">
+                  <a class="nav-link mx-lg-2" href="imges.html">Gallery</a>
+                </li>
+                <li class=" navbar nav-item">
+                  <a class="nav-link mx-lg-2" href="index1.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="login-button">login</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    
+  
+    
+     <div class="main">
+        <h1 class="heading"  >Contact Form</h1>
+        <div class="div" style="margin-bottom: 100px;">
+            <div>
+                <input class="input" id="name" type="text" placeholder="name"><br><br>
+                <input class="input" id="email" type="text" placeholder="email"><br><br>
+                <input class="input" id="comment" type="text" placeholder="Comment.."><br><br>
+                <button class="button" type="submit" onclick="submit()">Send Message</button>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    
+  <footer class="bg-dark text-secondary pt-5 pd-4">
+    <div class="container text-center text-mt-left">
+      <div class="row text-center text-mt-left">
+        <div class="coi-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h4 class="text-uppercase md-4 font-weight-bold text-light">CARRIO MOTORS</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quas ducimus repellat excepturi hic praesentium voluptatibus quos quod fugiat earum illo, nulla quidem optio ipsam molestias fugit dolores unde pariatur.</p>
+  
+        </div>
+        <div class=" coi-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h4 class="text-light md-4 font-weight-bold text-light">Cars By Make</h4>
+          <p>
+            <a class=" text-secondary" style="text-decoration: none; color: #413f3f;">Toyota Cars for Sale</a>
+          </p>
+          <p>
+            <a class="text-secondary" style="text-decoration: none;">BMW Cars for Sale</a>
+          </p>
+          <p>
+            <a class="text-secondary" style="text-decoration: none;">Honda Cars for Sale</a>
+          </p>
+          <p>
+            <a class="text-secondary" style="text-decoration: none;">Suzuki Cars for Sale</a>
+          </p>
+  
+        </div>
+        <div class=" coi-md-3 col-lg-2 col-xl-2 mx-auto mt-3"> 
+          <h4 class="text-white md-4 font-weight-bold text-warning">Info</h4>
+          <p>
+            <a href="./index.html" class="text-secondary" style="text-decoration: none;">home</a>
+          </p>
+          <p>
+            <a href="./aboul.html" class="text-secondary" style="text-decoration: none;">about</a>
+          </p>
+          <p>
+            <a href="./imges.html" class="text-secondary" style="text-decoration: none;">gallery</a>
+          </p>
+          <p>
+            <a href="./index1.html" class="text-secondary" style="text-decoration: none;">contact</a>
+          </p>
+        </div>
+        <div class=" coi-md-4 col-lg-3 col-xl-3 mx-auto mt-3"> 
+          <h4 class="text-white md-4 font-weight-bold text-warning">Contact</h4>
+          <p>
+            <i class="fas fa-home mr-3"></i> Karachi Lyari  
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> wahid2309e@aptechgdn.net 
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 03202052545 
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i>  +333000444 
+          </p>
+        </div>
+  
+      </div>
+      <hr class="md-4">
+      <div class="row align-itmes-center">
+        <div class="col-md-7 col-lg-8"></div>
+  
+      
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <ul class="list-ustyled list-inline">
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-secondary" style="font-size: 23px;"><i class="fa-brands fa-square-twitter"></i></a>
+            </li> 
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-secondary" style="font-size: 23px;"><i class="fa-brands fa-instagram"></i></a>
+            </li> 
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-secondary" style="font-size: 23px;"><i class="fa-brands fa-facebook"></i></a>
+            </li> 
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-secondary" style="font-size: 23px;"><i class="fa-brands fa-youtube"></i></a>
+            </li> 
+          </ul>
+  
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  
+   </footer>
+
+</body>
+</html>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
